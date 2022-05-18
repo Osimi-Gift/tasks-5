@@ -1,0 +1,132 @@
+html{
+    min-height: 100%;
+    background-image: url(ptm5\ \(2\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+button{
+    display: inline-block;
+    background-color: lightsalmon;
+    border-radius: 10px;
+    border: 3px double #cccccc;
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+button span{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+button span:after{
+    content: normal;
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20;
+    transition: 0,5;
+}
+button:hover {
+    background-color: #f7c2f9;
+}
+button:hover span {
+    padding-right:25px;
+}
+body, p{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display:flex;
+    justify-content: space-around;
+    width: 20%;
+    margin-left:auto;
+    padding:2em;
+}
+a{
+    transition: 1s ease-in-out;
+    color: orangered;
+    text-decoration:solid orangered ;
+}
+a:hover{
+    text-decoration: underline;
+}
+nav img{
+    height: 20px;
+    width: 80px;
+}
+main{
+    width:50%;
+    margin: 7em auto;
+    text-align: center;
+}
+input{
+    width:80%;
+    padding:1em;
+    border-radius:30px;
+    border: 1px solid=rgb(139, 105, 105)
+}
+
+.footer_top{
+    padding: 1em;
+}
+.footer_bottom{
+    padding: 1em;
+    display:flex;
+    justify-content: space-between;
+    border-top: 1px solid none;
+    background-color: none;
+}
+.footer_left{
+    width: 2em;
+    display: flex;
+    justify-content: right space-between;
+}
+.left a{
+    margin-right: 1em;
+}
+main{
+    background: position 100px;
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 18px;
+}
+header{
+    background-color:none;
+    width: 100%;
+}
+ul{
+    float: left;
+    text-decoration: #f7c2f9;
+}
+.foot_right{
+    width: 0.5em;
+    display:flex;
+    justify-content: space-between;
+}
+.content{
+    color: coral;
+   padding-left: 20px;
+   padding-bottom: 25px;
+   font-family: Arial;
+   letter-spacing: 1.2px;
+   line-height: 30px;
+}
+a{
+    padding-left:10px;
+    padding-bottom: 15px;
+    font-family: Arial;
+    letter-spacing: 0.9px;
+    line-height: 20px;
+}
+a ul{
+color: #f7c2f9;
+}
