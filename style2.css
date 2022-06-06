@@ -1,0 +1,58 @@
+html{
+    background-image: url(ptm6.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+button{
+    width: 200px;
+    height: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-top: 5px;
+    border-bottom: 5px;
+    border-radius: 20px;
+    background-color: brown;
+}
+input{
+    width: 200px;
+    height: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-top: 5px; 
+    border-radius:10px ;
+    color: khaki; 
+    background-color: rgb(110, 70, 70);
+    size-adjust: 10px; 
+}
+label{
+    font-style: italic;
+    font-family: Arial;
+    color: hotpink;
+}
+
+button span{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+button span:after{
+    content: normal;
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20;
+    transition: 0,5;
+}
+button:hover {
+    background-color:white;
+    cursor: pointer;
+}
+button:hover span {
+    padding-right:25px;
+}
+p,h4,h3,h2, h1,ol,li{
+    color: white;
+    margin-top: 20pxpx;
+    margin-bottom: 70px;
+}

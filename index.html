@@ -11,32 +11,19 @@
 <body>
   <header>
     <nav>
-          <a href="#">Home</a>
+          <a href="http://127.0.0.1:5500/Register.html">Registration</a>
           <a href="#">Service</a>
+          <a href="http://127.0.0.1:5500/login.html">Login</a>
           <img src="egg.logo.jpg" alt="egg.logo." />
+          <select>
+              <option>send us a mail</option>
+              <option>online classes</option>
+          </select>
       </nav>
    </header>
    <header>
-       <div class="menu">
-           <a href="a"></a> Register today as member
-           <ul 
-       </div><a href="a"></a>FIRST NAME              
-               <input type="text"/>
-               <a href="a"></a>LAST NAME
-               <input type="text"/>
-               <a href="a"></a>EMAIL
-               <input type="text"/>
-               <button type="submit">submit</button>
-            <ul right>
-               <img src="img 1.jpg" alt="img 1." />
-               <img src="img 2.jpg" alt="img 2." />
-               <img src="ptm 2.jpg" alt="ptm2.">
-               <img src="ptm4.jpg" alt="ptm4,">
-               <img src="ptm 3.jpg" alt="ptm 3.">
-           </ul>
-       </div>
-   </header>
-
+            
+</header>
    <main>
         <img src="egg logo 2.jpg" alt="egg logo 2." />
         <div class="content">
@@ -44,62 +31,77 @@
                  <p> we sell fresh eggs at a very cheap price, wholesale and retail </p>
                  <p>you can register as member to enjoy a discount of 3% at every of your purchase as wholesaler or as a retailer, registration is free</p>
         <input type="text"/>
-        <button type="search">search</button>
+        <button type="search" id="sRh">search</button>
         <li><a></a> Place An Order </li>
         <div class="btns_container">
-            <button type="buy now" >buy now</button>
-        <div class="btns_container">
-            <button type="click to sell">click to sell</button>
+            <button type="buy now" id="myBtn" >buy now</button><link rel="page 2" href="http://127.0.0.1:5500/index.html">
+            <button type="button" id="cM">Click Me!</button>
+        </div>
+        <script>
+            const myBtn = document.getElementById("myBtn");
+      
+            myBtn.addEventListener("click", function(e) {
+                 const name = prompt("What is your name?");
+      
+                document.body.innerHTML = "<h1>Welcome to my website i am glad to have you here, how may i help you " + name+  "!</h1>";
+            });
+        </script>
+        <script>
+            const cM = document.getElementById("cM");
+      
+            cM.addEventListener("click", function(e) {
+                 const name = prompt("What is your name?");
+      
+                document.body.innerHTML = "<h1>Welcome to my website i am glad to have you here, how may i help you " + name+  "!</h1>";
+            });
+        </script>
+        <script>
+            const sRh = document.getElementById("sRh");
+      
+            sRh.addEventListener("click", function(e) {
+                 const name = prompt("What is your name?");
+      
+                document.body.innerHTML = "<h1>Welcome to my website i am glad to have you here, how may i help you " + name+  "!</h1>";
+            });
+        </script>
+      
+        <div class="btn_container">
+            <button type="click to sell" id="cTs">click to sell</button>
+            <script>
+                const cTs = document.getElementById("cTs");
+          
+                cTs.addEventListener("click", function(e) {
+                    const name = prompt("How many crates do you have to sell?");
+                   confirm("thank you, we will get back to you");
+                    document.body.inputMode.button( yes) = "<h1> Are you sure you have this amount for sell" + name+  "!</h1>";
+                });
+            </script>
 </div>
  <div class="left">
          <img src="ptm.jpg" alt="ptm."/>
      </main>
  </div>
- <div cl
-   <main>
-       <background-picture>
-            
-       </background-picture>
-
-</main>
-</main>
-
-
-</footer>
-
 <div class="footer_top">
      <p>Nigeria</p>
-
 </div>
-
 <div class="footer_bottom">
 <div class="left">
-     <button type="ABOUT"about></button>
-     <a>Register</a>
-     <a>Mentor</a>
-     <a>How to place order</a>
+     <button type="ABOUT" class="2"><a href="">About</a></button>
+     <button class="2"><a  href="http://127.0.0.1:5500/Register.html">Register</a></button>
+     <button class="2"><a  href="">Mentor</a></button>
+     <button class="2"><a  href="">Place an order</a></button>
 <div class="footer_bottom" >
 <div class="right"> 
-
     <img src="social.logo.jpg" alt="social.logo." />
 </div>    
-</div>
-
-
-
-
-<a>Osimi Godsgift Enterprise</a>
-
+<a><h3>Osimi Godsgift Enterprise</h3></a>
 <div class="right">
-
-<a>Privacy</a>
-<a>Terms</a>
-<a>Settings</a>
-
+<a><h3>Privacy</h3></a>
+<a><h3>Terms</h3></a>
+<a><h3>Settings</h3></a>
 <div class="right">
-
-<a>Copyright 2022 </a>
-<a>The egg dealer website is a sole property of OSIMI GLOBAL ENTERPRISE,no portion of this property should be duplicated. All complains should be submitted vie email@osimigodsgift@gmail.com </a>
+<a><h3>Copyright 2022</h3> </a>
+<a><h3>The egg dealer website is a sole property of OSIMI GLOBAL ENTERPRISE,no portion of this property should be duplicated. All complains should be submitted vie email@osimigodsgift@gmail.com</h3> </a>
 </div>
 </div>
 </body>

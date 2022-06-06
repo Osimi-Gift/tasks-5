@@ -1,8 +1,8 @@
 html{
-    min-height: 100%;
-    background-image: url(ptm5\ \(2\).jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+        min-height: 100%;
+        background-image: url(ptm5\ \(2\).jpg);
+        background-size: cover;
+        background-repeat:no-repeat;
 }
 button{
     display: inline-block;
@@ -13,7 +13,7 @@ button{
     text-align: center;
     font-size: 28px;
     padding: 20px;
-    width: 200px;
+    width:200px;
     transition: all 0.5s;
     cursor: pointer;
     margin: 5px;
@@ -33,7 +33,7 @@ button span:after{
     transition: 0,5;
 }
 button:hover {
-    background-color: #f7c2f9;
+    background-color:black;
 }
 button:hover span {
     padding-right:25px;
@@ -42,17 +42,20 @@ body, p{
     margin: 0;
     padding: 0;
 }
-nav{
+nav {
     display:flex;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 20%;
     margin-left:auto;
     padding:2em;
 }
 a{
     transition: 1s ease-in-out;
-    color: orangered;
+    color:black;
     text-decoration:solid orangered ;
+    margin-top: 0;
+    display: flex;
+    justify-content: space-around;
 }
 a:hover{
     text-decoration: underline;
@@ -69,7 +72,7 @@ main{
 input{
     width:80%;
     padding:1em;
-    border-radius:30px;
+    border-radius:10px;
     border: 1px solid=rgb(139, 105, 105)
 }
 
@@ -101,7 +104,7 @@ main{
 }
 header{
     background-color:none;
-    width: 100%;
+    
 }
 ul{
     float: left;
@@ -129,4 +132,41 @@ a{
 }
 a ul{
 color: #f7c2f9;
+}
+header a{
+    color: whitesmoke;
+}
+select{
+   width: 20px;
+   height: 15px;
+   padding: 20px;
+   padding-top: auto;
+   padding-bottom: auto;
+   border-radius: 10px;
+   background-color: burlywood;
+   cursor: pointer;
+   transition: .3s ease;
+   margin: 0.5s;
+}
+select span{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: .3s;
+}
+select span:after{
+    content: normal;
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20;
+    transition: 0.5s;
+}
+select:hover{
+    background-color: #f7c2f9;
+}
+ 
+h3{
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
